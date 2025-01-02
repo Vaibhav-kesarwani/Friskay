@@ -1,3 +1,52 @@
+.hide-mobile {
+    display: none;
+}
+
 body {
     background-color: #FFFBF3;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.wrap {
+    margin: 2em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-nav {
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    margin: 0;
+    list-style: none;
+    width: 40%;
+    text-align: right;
+    padding: 2em;
+
+    li {
+        margin: 1em 0;
+
+        &:first-child {
+            margin-bottom: 2em;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: bold;
+
+            &:hover {
+                color: #FF6B6B;
+                text-decoration: underline;
+            }
+        }
+    }
 }
