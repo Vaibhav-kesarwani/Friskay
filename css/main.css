@@ -30,6 +30,7 @@ header {
     text-align: right;
     padding: 2em;
     transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
 
     li {
         margin: 2em 0;
@@ -49,4 +50,8 @@ header {
             }
         }
     }
+}
+
+.open {
+    transform: translateX(0%);
 }
