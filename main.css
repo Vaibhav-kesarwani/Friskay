@@ -147,7 +147,7 @@ a.primary-cat {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1em;
+    gap: 2em;
 
     .divider {
       height: 50px;
